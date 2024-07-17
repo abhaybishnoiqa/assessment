@@ -1,0 +1,12 @@
+com\qa\nytimes\listeners\TestAllureListener.class
+com\qa\nytimes\utils\JavaScriptUtil.class
+com\qa\nytimes\factory\DriverFactory.class
+com\qa\nytimes\pages\HomePage.class
+com\qa\nytimes\factory\OptionsManager.class
+com\qa\nytimes\utils\Constants.class
+com\qa\nytimes\utils\ExcelUtil.class
+com\qa\nytimes\listeners\ExtentReportListener.class
+com\qa\nytimes\listeners\AnnotationTransformer.class
+com\qa\nytimes\listeners\Retry.class
+com\qa\nytimes\utils\ElementUtil.class
+com\qa\nytimes\utils\Browser.class

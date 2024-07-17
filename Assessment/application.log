@@ -1,0 +1,25 @@
+17 Jul 2024 21:26:14,478 main - Reading the properties file
+17 Jul 2024 21:26:14,480 main - browser name is: chrome
+17 Jul 2024 21:26:14,492 main - running on chrome browser
+17 Jul 2024 21:26:26,164 main - https://www.nytimes.com/international/ ..url is launched
+17 Jul 2024 21:26:26,866 main - Reading the properties file
+17 Jul 2024 21:26:26,867 main - browser name is: chrome
+17 Jul 2024 21:26:26,867 main - running on chrome browser
+17 Jul 2024 21:26:38,533 main - https://www.nytimes.com/international/ ..url is launched
+17 Jul 2024 21:26:39,479 main - Reading the properties file
+17 Jul 2024 21:26:39,479 main - browser name is: chrome
+17 Jul 2024 21:26:39,479 main - running on chrome browser
+17 Jul 2024 21:26:52,043 main - https://www.nytimes.com/international/ ..url is launched
+17 Jul 2024 21:26:56,364 main - Reading the properties file
+17 Jul 2024 21:26:56,364 main - browser name is: chrome
+17 Jul 2024 21:26:56,366 main - running on chrome browser
+17 Jul 2024 21:26:57,996 main - https://www.nytimes.com/international/ ..url is launched
+17 Jul 2024 21:27:05,422 main - locator is : By.xpath: //*[@data-testid="search-input"] value Dubai
+17 Jul 2024 21:27:08,481 main - Reading the properties file
+17 Jul 2024 21:27:08,482 main - browser name is: chrome
+17 Jul 2024 21:27:08,483 main - running on chrome browser
+17 Jul 2024 21:27:17,966 main - https://www.nytimes.com/international/ ..url is launched
+17 Jul 2024 21:27:20,371 main - Reading the properties file
+17 Jul 2024 21:27:20,372 main - browser name is: chrome
+17 Jul 2024 21:27:20,372 main - running on chrome browser
+17 Jul 2024 21:27:22,467 main - https://www.nytimes.com/international/ ..url is launched

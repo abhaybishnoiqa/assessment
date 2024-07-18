@@ -4,7 +4,6 @@ import com.qa.nytimes.utils.Constants;
 import com.qa.nytimes.utils.ElementUtil;
 import com.qa.nytimes.utils.ExcelUtil;
 import com.qa.nytimes.utils.JavaScriptUtil;
-import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -37,32 +36,26 @@ public class HomePage {
     }
 
     //2.public page actions
-    @Step("Getting home page title...")
     public String getHomePageTitle() {
         return eleUtil.waitForTitleIs(Constants.DEFAULT_TIME_OUT, Constants.HOME_PAGE_TITLE);
     }
 
-    @Step("Getting Us page URL...")
     public String getUSPageURL() {
         return eleUtil.waitForUrl(Constants.DEFAULT_TIME_OUT, Constants.US_PAGE_URL);
     }
 
-    @Step("Checking if login button exist or not...")
     public boolean isLoginLinkExist() {
         return eleUtil.doIsDisplayed(loginBtn);
     }
 
-    @Step("Clicking on US Nav")
     public void clickOnUSNav() {
         eleUtil.doClick(navDropDown);
     }
 
-    @Step("Clicking on search icon")
     public void clickOnSearchIcon() {
         eleUtil.doClick(searchIcon);
     }
 
-    @Step("Searching for the news")
     public void searchForNews() {
         String keyWord = excelUtil.getTestDataMethod("search");
         eleUtil.doSendKeys(searchBar, keyWord);
